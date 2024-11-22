@@ -13,7 +13,7 @@ O Banks é um programa em Java que implementa um gerenciador de links úteis com
 
 2. **Exibição e Organização**:
    - Exibir links em uma tabela com as colunas **Nome**, **URL** e **Categoria**.
-   - Categorização de links em cinco tipos: **Estudos**, **Receitas**, **Curiosidades**, **Compras**, **Livros**, **Esportes**, **Filmes**, **Series**, **Tecnologia**.
+   - Categorização de links em nove tipos: **Estudos**, **Receitas**, **Curiosidades**, **Compras**, **Livros**, **Esportes**, **Filmes**, **Series**, **Tecnologia**.
 
 3. **Persistência de Dados**:
    - Salvar automaticamente os links em um arquivo (`Banks.txt`).
@@ -29,7 +29,7 @@ O Banks é um programa em Java que implementa um gerenciador de links úteis com
 - **Java**: Linguagem de programação principal.
 - **Swing**: Biblioteca para a interface gráfica.
 - **I/O (Input/Output)**: Manipulação de arquivos para salvar e carregar os dados.
-- **listas** Uso da classe `ArrayList` para armazenar os links em memória.
+- **ArrayList**: Uso da classe `ArrayList` para armazenar os links em memória.
 
 ---
 
@@ -39,7 +39,7 @@ O Banks é um programa em Java que implementa um gerenciador de links úteis com
 **Objetivo**: Criar a estrutura básica do projeto e implementar a funcionalidade de persistência de dados.  
 **Tarefas**:
 1. Criar a classe `Link` com atributos `nome`, `url` e `categoria`.
-2. Implementar o método `toString` para formatar os links para persistência.
+2. Implementar o método `toString` para formatar os links no arquivo texto.
 3. Implementar `fromString` para reconstruir os objetos a partir do arquivo.
 4. Criar métodos para salvar (`salvarLinks`) e carregar (`carregarLinks`) os dados em `Banks.txt`.
 
@@ -78,7 +78,7 @@ O Banks é um programa em Java que implementa um gerenciador de links úteis com
 **Objetivo**: Garantir que os dados persistam entre sessões e melhorar a interface.  
 **Tarefas**:
 1. Integrar as operações de CRUD com os métodos de persistência (`salvarLinks` e `carregarLinks`).
-2. Atualizar automaticamente a tabela após cada operação.
+2. Atualizar automaticamente a tabela e o arquivo texto após cada operação.
 3. Tratar exceções relacionadas a arquivos e entradas inválidas do usuário.
 4. Melhorar mensagens exibidas ao usuário (ex.: erros ou confirmações).
 
@@ -97,14 +97,6 @@ O Banks é um programa em Java que implementa um gerenciador de links úteis com
 
 **Entrega**:
 - Interface refinada e documentação completa do projeto.
-
----
-
-## **Possíveis Melhorias Futuras**
-- Adicionar um sistema de busca por nome ou categoria.
-- Permitir reordenar a tabela com base nas colunas.
-- Implementar suporte a outras categorias de links.
-- Exportar os links para outros formatos, como CSV ou HTML.
 
 ---
 
