@@ -1,4 +1,4 @@
-# **README - Gerenciador de Links Úteis**
+# **Banks - Banco de Links Úteis**
 
 ## **Descrição Geral**
 Este é um programa Java que implementa um gerenciador de links úteis com interface gráfica utilizando a biblioteca **Swing**. Ele permite que o usuário armazene, edite, visualize e remova links categorizados de maneira organizada. Os links são persistidos em um arquivo de texto local (`Banks.txt`), garantindo que os dados sejam mantidos entre sessões.
