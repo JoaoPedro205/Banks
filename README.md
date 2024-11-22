@@ -1,7 +1,7 @@
 # **Banks - Banco de Links Úteis**
 
 ## **Descrição Geral**
-Este é um programa Java que implementa um gerenciador de links úteis com interface gráfica utilizando a biblioteca **Swing**. Ele permite que o usuário armazene, edite, visualize e remova links categorizados de maneira organizada. Os links são persistidos em um arquivo de texto local (`Banks.txt`), garantindo que os dados sejam mantidos entre sessões.
+O Banks é um programa em Java que implementa um gerenciador de links úteis com interface gráfica utilizando a biblioteca **Swing**. Ele permite que o usuário armazene, edite, visualize e remova links categorizados de maneira organizada. Os links são persistidos em um arquivo de texto local (`Banks.txt`), garantindo que os dados sejam mantidos entre sessões.
 
 ---
 
@@ -29,7 +29,7 @@ Este é um programa Java que implementa um gerenciador de links úteis com inter
 - **Java**: Linguagem de programação principal.
 - **Swing**: Biblioteca para a interface gráfica.
 - **I/O (Input/Output)**: Manipulação de arquivos para salvar e carregar os dados.
-- **Collections**: Uso da classe `ArrayList` para armazenar os links em memória.
+- **listas** Uso da classe `ArrayList` para armazenar os links em memória.
 
 ---
 
@@ -41,7 +41,7 @@ Este é um programa Java que implementa um gerenciador de links úteis com inter
 1. Criar a classe `Link` com atributos `nome`, `url` e `categoria`.
 2. Implementar o método `toString` para formatar os links para persistência.
 3. Implementar `fromString` para reconstruir os objetos a partir do arquivo.
-4. Criar métodos para salvar (`salvarLinks`) e carregar (`carregarLinks`) os dados em `links.txt`.
+4. Criar métodos para salvar (`salvarLinks`) e carregar (`carregarLinks`) os dados em `Banks.txt`.
 
 **Entrega**: 
 - Código que lê e escreve links em um arquivo texto.
