@@ -83,7 +83,7 @@ Este é um programa Java que implementa um gerenciador de links úteis com inter
 4. Melhorar mensagens exibidas ao usuário (ex.: erros ou confirmações).
 
 **Entrega**:
-- CRUD funcional com persistência completa em `links.txt`.
+- CRUD funcional com persistência completa em `Banks.txt`.
 
 ---
 
