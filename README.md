@@ -132,8 +132,6 @@ O sistema **Banks - Banco de Links Úteis** permite gerenciar links de forma org
 ### **3. Remover um Link**
 - Selecione o link desejado na tabela.
 - Clique no botão **"Remover"**.
-- Uma mensagem de confirmação será exibida.
-- Clique em **"Sim"** para confirmar.
 - O link será removido da tabela e do arquivo.
 
 ---
