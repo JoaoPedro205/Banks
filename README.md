@@ -114,7 +114,7 @@ O sistema **Banks - Banco de Links Úteis** permite gerenciar links de forma org
   - **Nome:** Título do link.
   - **URL:** Endereço do link.
   - **Categoria:** Selecione uma das categorias disponíveis no menu suspenso.
-- Após preencher, clique em **"Salvar"**.
+- Após preencher, clique em **"OK"**.
 - O link será adicionado à tabela e salvo no arquivo.
 
 ---
@@ -124,7 +124,7 @@ O sistema **Banks - Banco de Links Úteis** permite gerenciar links de forma org
 - Clique no botão **"Editar"**.
 - A janela de edição será aberta, permitindo alterar:
   - Nome, URL e/ou Categoria.
-- Após fazer as alterações, clique em **"Salvar"**.
+- Após fazer as alterações, clique em **"OK"**.
 - O link será atualizado na tabela e no arquivo.
 
 ---
