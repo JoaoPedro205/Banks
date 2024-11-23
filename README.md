@@ -1,4 +1,4 @@
-# **Banks - Banco de Links Úteis**
+# **Banks - Banco de Links Úteis 1.0**
 
 ## **Descrição Geral**
 O Banks é um programa em Java que implementa um gerenciador de links úteis com interface gráfica utilizando a biblioteca **Swing**. Ele permite que o usuário armazene, edite, visualize e remova links categorizados de maneira organizada. Os links são persistidos em um arquivo de texto local (`Banks.txt`), garantindo que os dados sejam mantidos entre sessões.
