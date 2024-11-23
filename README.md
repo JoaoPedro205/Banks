@@ -158,12 +158,6 @@ Os links podem ser organizados nas seguintes categorias:
 
 ---
 
-### **Confirmações**
-- **"Link salvo com sucesso":** Exibido após adicionar ou editar um link.
-- **"Link removido com sucesso":** Exibido após confirmar a remoção de um link.
-
----
-
 ## **Fechando o Programa**
 - Feche a janela do programa normalmente.
 - Todos os links na tabela serão automaticamente salvos no arquivo `Banks.txt`.
