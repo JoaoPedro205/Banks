@@ -100,7 +100,76 @@ O Banks é um programa em Java que implementa um gerenciador de links úteis com
 
 ---
 
+# **Manual de Uso do Sistema Banks**
+
+O sistema **Banks - Banco de Links Úteis** permite gerenciar links de forma organizada, categorizada e com persistência entre sessões. Este manual detalha como utilizar cada funcionalidade do sistema.
+
+---
+
+## **Funcionalidades Principais**
+
+### **1. Adicionar um Link**
+- Clique no botão **"Adicionar"**.
+- Uma janela será exibida com os campos:
+  - **Nome:** Título do link.
+  - **URL:** Endereço do link.
+  - **Categoria:** Selecione uma das categorias disponíveis no menu suspenso.
+- Após preencher, clique em **"Salvar"**.
+- O link será adicionado à tabela e salvo no arquivo.
+
+---
+
+### **2. Editar um Link**
+- Selecione o link desejado na tabela clicando sobre ele.
+- Clique no botão **"Editar"**.
+- A janela de edição será aberta, permitindo alterar:
+  - Nome, URL e/ou Categoria.
+- Após fazer as alterações, clique em **"Salvar"**.
+- O link será atualizado na tabela e no arquivo.
+
+---
+
+### **3. Remover um Link**
+- Selecione o link desejado na tabela.
+- Clique no botão **"Remover"**.
+- Uma mensagem de confirmação será exibida.
+- Clique em **"Sim"** para confirmar.
+- O link será removido da tabela e do arquivo.
+
+---
+
+### **4. Salvar e Carregar Links**
+- **Salvar:** Os links são salvos automaticamente após qualquer modificação. Não é necessário realizar nenhuma ação adicional.
+- **Carregar:** Ao iniciar o programa, todos os links previamente salvos no arquivo `Banks.txt` serão exibidos automaticamente na tabela.
+
+---
+
+## **Categorias Disponíveis**
+Os links podem ser organizados nas seguintes categorias:
+1. **Estudos**
+2. **Receitas**
+3. **Curiosidades**
+4. **Compras**
+5. **Livros**
+6. **Esportes**
+7. **Filmes**
+8. **Séries**
+9. **Tecnologia**
+
+---
+
+### **Confirmações**
+- **"Link salvo com sucesso":** Exibido após adicionar ou editar um link.
+- **"Link removido com sucesso":** Exibido após confirmar a remoção de um link.
+
+---
+
+## **Fechando o Programa**
+- Feche a janela do programa normalmente.
+- Todos os links na tabela serão automaticamente salvos no arquivo `Banks.txt`.
+
+---
+
 ## **Contribuidores**
 - Desenvolvedor: **João Pedro da Costa Januário**
-- RA: 158038-23
 - Linguagem utilizada: **Java**
